@@ -1,0 +1,65 @@
+body{
+    /* Color de fondo */
+   /* background-color: rgb(243, 243, 222); */
+
+   font-family:Arial, Helvetica, sans-serif ;
+    background: linear-gradient(#c9ccee, #607c66);
+
+   /* background: url(imagen que quieres reproducir); */
+
+   /*cambio de fuente*/
+
+   /*font-family: "Noto Serif", serif; tamaño-óptico-de-fuente: automático; peso de fuente: <peso>; estilo de fuente: normal; configuración de variación de fuente: "ancho" 100;*/
+
+
+}
+
+h3 {
+
+    /* Color de texto*/
+
+    color: rgb(33, 67, 201);
+}
+
+/*#banner { 
+width: 1500px;}*/
+
+#bouquet3 { 
+width: 15px;}
+
+
+
+h1 {
+
+    /* Color de texto título*/
+ color: rgb(3, 3, 140);
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ /*cambiar tamaño de imagenes */
+ /* cambiar anchura - pixeles (px) y porcentaje (%)*/
+ width: 20%;
+ /* bordes redondeados*/
+
+ border-radius: 5px;
+
+/*editar div del menu */
+}
+.menu {
+/* Div flexible para moverse con los elementos*/
+
+display: flex; 
+/* En columna */
+flex-direction: column;
+/* Alinea items de forma centrada*/
+align-items: center;
+
+
+/* Anclas del menú*/
+
+a {
+    /* color de texto */
+    color: cornflowerblue;
+    /* vinetas - linea debajo del ancla*/
+    text-decoration: none;
+}
+}
